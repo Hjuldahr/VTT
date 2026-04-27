@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="<%= process.env.PUBLIC_URL || '/' %>">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VTT</title>
+    </head>
+    <body>
+        <h1>VTT Signup</h1>
+        <form>
+            <label for="display_name">Display Name</label>
+            <input id="display_name" type="text">
+
+            <label for="email">Email</label>
+            <input id="email" type="email">
+
+            <label for="password_1">Password</label>
+            <input id="password_1" type="password">
+
+            <label for="password_2">Confirm Password</label>
+            <input id="password_2" type="password">
+
+            <input type="submit">
+            <input type="clear">
+
+            <input type="button" name="Login" onclick="document.location.replace('/login');">
+        </form>
+    </body>
+</html>

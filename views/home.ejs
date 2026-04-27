@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="<%= process.env.PUBLIC_URL || '/' %>">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VTT</title>
+    </head>
+    <body>
+        <h1>VTT Home</h1>
+        <h2>Players</h2>
+        <h3>Open Sessions</h3> <!--Currently open sessions your invited to-->
+        <div id="open_sessions_container">
+        </div>
+        <h3>Closed Sessions</h3> <!--Currently closed sessions your invited to-->
+        <div id="closed_sessions_container">
+        </div>
+        
+        <h2>Game Masters</h2>
+        <button>Start Session</button><br><br> <!--Choose between old session file and a new session-->
+
+        <h2>VTT Account</h2>
+        <button>Manage Account</button><br><br>
+        <button>Logout</button>
+    </body>
+</html>

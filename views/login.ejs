@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="<%= process.env.PUBLIC_URL || '/' %>">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VTT</title>
+    </head>
+    <body>
+        <h1>VTT Login</h1>
+        <form>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+
+            <label for="password_1">Password</label>
+            <input id="password_1" type="password">
+
+            <input type="submit">
+
+            <input type="button" name="Signup" onclick="document.location.replace('/register');">
+        </form>
+    </body>
+</html>
