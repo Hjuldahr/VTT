@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="<%= process.env.PUBLIC_URL || '/' %>">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VTT</title>
+    </head>
+    <body>
+        <form>
+            <label for="session_name">Session Name</label>
+            <input id="session_name" type="text">
+
+            <label for="description">Description</label>
+            <input id="description" type="text" rows="5" cols="40">
+
+            <label for="players">Players (comma seperated usernames)</label>
+            <input id="players" type="text">
+
+            <input type="submit">
+            <input type="clear">
+        </form>
+    </body>
+</html>
