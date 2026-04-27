@@ -14,17 +14,17 @@ const TokenSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    x: { 
+    x: { // grid file
         type: Number,
         required: true,
         default: 0.0
     },
-    y: { 
+    y: { // grid rank 
         type: Number,
         required: true,
         default: 0.0
     },
-    z: { // height
+    z: { // grid elevation (purely symbolic)
         type: Number,
         required: true,
         default: 0.0
@@ -34,7 +34,7 @@ const TokenSchema = new mongoose.Schema({
         required: true,
         default: 0.0
     },
-    isFlipped: { 
+    isFlipped: { // around Y axis
         type: Boolean,
         required: true,
         default: false
