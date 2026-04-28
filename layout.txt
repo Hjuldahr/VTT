@@ -1,0 +1,30 @@
+index (auto)-> login
+
+login -> home
+login -> register
+
+register -> home
+register -> login
+
+home -> connect to campaign
+home -> manage campaigns
+home -> manage assets
+home -> manage account
+home -> logout
+
+manage campaigns -> start campaign
+manage campaigns -> resume campaign
+
+manage assets -> upload asset
+manage assets -> delete asset
+manage assets -> change asset visibility (per user, per campaign)
+
+campaign -> GM tools
+campaign -> Asset tools
+campaign -> Map tools (nav, etc,)
+
+campaign -> token control
+campaign -> chat commands
+campaign -> session control
+
+manage account -> logout
